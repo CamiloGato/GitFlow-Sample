@@ -6,7 +6,7 @@ namespace Enemy
 {
     public class EnemyController : EntityController, IDestructor
     {
-
+        public int id;
         [SerializeField] private int lifes;
         
         public void Destroy()
